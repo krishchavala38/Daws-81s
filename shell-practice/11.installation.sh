@@ -9,6 +9,4 @@ then
     
 fi
 
-sudo su -
-
-dnf install git -y
+dnf list installed git # Just checking whether installed or not
