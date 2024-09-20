@@ -6,7 +6,9 @@ USERID=$(id -u)
 if [ $USERID -ne 0 ]
 then
     echo "Please run this script with root priveleges"
-    sudo su -
+    
 fi
+
+sudo su -
 
 dnf install git -y
